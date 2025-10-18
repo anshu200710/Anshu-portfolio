@@ -34,7 +34,7 @@ const Navbar = () => {
           href="/"
           className="text-2xl font-extrabold tracking-tight cursor-pointer"
         >
-          UX<span className="text-purple-500">Lab</span>
+          Anshu<span className="text-purple-500">Prajapati</span>
         </a>
 
         {/* Desktop Menu */}
