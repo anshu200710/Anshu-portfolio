@@ -39,3 +39,30 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+.marquee-inner {
+                    animation: marqueeScroll linear infinite;
+                    color: white;
+                }
+
+                @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }
+}
+
+.animate-marquee {
+    animation: marquee 30s linear infinite; /* You can adjust the time here */
+}
+
+ @keyframes marqueeScroll {
+                0% { transform: translateX(0%); }
+                100% { transform: translateX(-50%); }
+            }
+
+            .marquee-inner {
+                animation: marqueeScroll 25s linear infinite;
+            }
+
+            .marquee-reverse {
+                animation-direction: reverse;
+            }               

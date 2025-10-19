@@ -24,6 +24,11 @@ import Profile from './Profile.png'
 import f1 from './f1.webp'
 import f2 from './f2.jpg'
 import f3 from './f3.jpg'
+import laxmi from './laxmi.png'
+import portfolio from './portfolio1.png'
+import portfolioCopy from './portfolio1-copy.png'
+import avtar from './avtar.png'
+import avtar2 from './avtar.png'
 
 
 export const assets = {
@@ -47,6 +52,11 @@ export const assets = {
     web,ux,mobile,graphic,
     f1,
     f2,
-    f3
+    f3,
+    laxmi,
+    portfolio,
+    portfolioCopy,
+    avtar,
+    avtar2
 }
 
