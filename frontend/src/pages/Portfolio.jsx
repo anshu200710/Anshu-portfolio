@@ -339,7 +339,7 @@ const Portfolio = () => {
                             initial={{ y: 100, opacity: 0 }}
                             animate={{ y: 0, opacity: 1 }}
                             transition={{ duration: 0.7, delay: 0.8, ease: "easeOut" }}
-                            className="relative w-[450px] h-[500px] sm:w-96 sm:h-[500px] lg:w-[500px] lg:h-[600px] rounded-2xl overflow-hidden"
+                            className="relative w-[400px] h-[400px] sm:w-96 sm:h-[500px] lg:w-[500px] lg:h-[600px] rounded-2xl overflow-hidden"
                         >
                             <img
                                 src={assets.avtar || PLACEHOLDER_IMAGE}
